@@ -1,0 +1,41 @@
+target/
+.byebug_history
+.DS_Store
+.gradle
+build/
+coverage/
+!gradle/wrapper/gradle-wrapper.jar
+secrets/*
+!secrets/*sops*
+bin/
+out/
+src/main/resources/git.properties
+datadog/
+.terraform/
+terraform/modules/synccentric-product-service/.terraform
+tmp/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# node
+node_modules/
